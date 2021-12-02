@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 150%;
+}
+body {
+    font-family: sans-serif;
+    height: 100%;
+    width: 100vw;
+    background:rgb(7, 168, 101);
+    line-height: 3;
+}
+header {
+    height: 9vh;
+    display: flex;
+    background: #000;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1em;
+    gap: 20px;
+}
+ul li {
+    list-style-type: none;
+}
+ul li a {
+    color: white;
+    letter-spacing: 5px;
+    text-decoration: none;
+    
+}
+
+ 
